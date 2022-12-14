@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#home {
+  margin: 50px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: 500px;
+  justify-content: space-evenly;
+  padding: 2%;
+  margin: 5%;
+  /* border: medium groove blue;
+  border-radius: 50px; */
+}
+
+.item-left {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 100%;
+  height: 500px;
+  justify-content: space-evenly;
+  padding: 2%;
+  margin: 5%;
+  /* border: medium groove blue;
+  border-radius: 50px; */
+}
+
+.content img, video {
+  /* max-width: 400px; */
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.about-description {
+  text-align: left;
+}
+
+.topic {
+  font-size: 40px;
+  background-image: linear-gradient(45deg,rgb(174, 0, 255) 20%, cyan,rgb(174, 0, 255) 80%);
+  width: fit-content;
+  margin: 5% auto;
+  background-clip: text;
+  color: transparent;
+}
+
+.topic h1 {
+  font-size: 40px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  border-style: groove;
+  border-width: 5px;
+  background-clip: border-box;
+  border-color: transparent;
+  background-image: repeating-linear-gradient(rgb(136, 2, 156),rgb(0, 81, 255) 10%,rgb(136, 2, 156));
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    font-size: larger;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .profile-pic {
+    width: 50%;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  nav {
+    font-size: large;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .profile-pic {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav {
+    font-size: small;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile-pic {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+  }
+}
+
+
+.language, .software, .tool {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: 300px;
+  width: 275px;
+  margin: 2%;
+  align-items: center;
+  animation: slide-down 2s ease calc(var(--animation-order) * 300ms) forwards;
+  --animation-order: 0;
+  transition: all 3s;
+  opacity: 0;
+}
+
+
+
+.image img {
+  height: 100px;
+  margin: 20px;
+}
+
+.detail-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 110%;
+  border-radius: 25px;
+  background-color: rgba(51, 24, 69, 0.086);
+  box-shadow: inset 0px 0px 7px 7px #08020f;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.detail-block:hover {
+  background-color: rgba(104, 54, 137, 0.086);
+  scale: 1.1;
+}
+
+.detail {
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  margin: 7%;
+}
+
+.l-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.description {
+  height: 0;
+}
+
+.item-description {
+  width: 0;
+}
+
+.description, .item-description {
+  overflow: hidden;
+  text-size-adjust: inherit;
+  z-index: 0;
+  opacity: 0;
+  transform: translateX(0);
+  transition: height 1s, opacity 1s, width 1s;
+}
+
+.description p, .item-description p {
+  max-width: 100%;
+  text-align: left;
+  font-size: medium;
+  margin-top: 10%;
+  text-indent: 10%;
+}
+
+.language:hover .description,
+.software:hover .description,
+.tool:hover .description {
+  display: flex;
+  height: 500px;
+  opacity: 1;
+  /* animation: show-info 2s ease 0s infinite alternate; */
+}
+
+.item:hover .item-description, .item-left:hover .item-description {
+  display: flex;
+  width: 50%;
+  opacity: 1;
+  margin: 2%;
+}
+
+.car.show {
+  transform: translateX(0);
+  opacity: 1;
+}
