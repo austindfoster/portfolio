@@ -1,6 +1,6 @@
 const items = [
     {
-        id: 1,
+        id: 0,
         content: "FarmhouseModel.mp4",
         contentType: "video",
         alt: "Silo Model",
@@ -8,12 +8,20 @@ const items = [
         description: "A model created in Maya. I took it from the proxy stage to a high-poly, more detailed model. This model is the farmer's home base in BYU's tower defense RTS, Solar Showdown (2022-2023). I completed the Silo and Claw models while Joseph Tandiman finished the Farmhouse model, whom also created the conept art as well.",
     },
     {
-        id: 2,
+        id: 1,
         content: "Farmhouse_Animation.mp4",
         contentType: "video",
         alt: "Silo Rig",
         category: "art",
         description: "I rigged and animated the home base claw and silo for Solar Showdown (2022-2023). The rig implements ik and fk controls, conditional parenting the silo to the claw, and scripting that zeroes out controls, matches ik to fk, and vice versa. The ik skeleton was implemented with a spline ik curve that uses the shape of the curve to control the claw cable shape.",
+    },
+    {
+        id: 2,
+        content: "BotanistSolarTower_Turnaround.mp4",
+        contentType: "video",
+        alt: "Solar Tower Proxy Model",
+        category: "art",
+        description: "A proxy model created for Solar Showdown of the Solar Towers used as the main win condition of the game. Modeling work was all done in Maya.",
     },
     {
         id: 3,
@@ -33,6 +41,14 @@ const items = [
     },
     {
         id: 5,
+        content: "Luffy_Turnaround.mp4",
+        contentType: "video",
+        alt: "Luffy",
+        category: "art",
+        description: "A model of Luffy from One Piece I made over the summer in Blender.",
+    },
+    {
+        id: 6,
         content: "Train_Turnaround.mp4",
         contentType: "video",
         alt: "Train Model",
@@ -40,7 +56,7 @@ const items = [
         description: "A model I am working on in Blender to practice Hard Surface modeling.",
     },
     {
-        id: 6,
+        id: 7,
         content: "Piano_Turnaround.mp4",
         contentType: "video",
         alt: "Piano Model",
@@ -48,7 +64,7 @@ const items = [
         description: "A model I had been working on over the summer to practice procedural modeling techniques. Made in Blender.",
     },
     {
-        id: 7,
+        id: 8,
         content: "penImage.jpg",
         contentType: "image",
         alt: "Pen Shader",
@@ -56,7 +72,7 @@ const items = [
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
-        id: 8,
+        id: 9,
         content: "Pen_Turnaround.mp4",
         contentType: "video",
         alt: "Pen Shader Turnaround",
@@ -64,7 +80,15 @@ const items = [
         description: "Here is the turnaround for the pen shader assignment.",
     },
     {
-        id: 9,
+        id: 10,
+        content: "Solar_Wires.mp4",
+        contentType: "video",
+        alt: "Solar Wire FX",
+        category: "cs",
+        description: "A procedural wire that traces the hexagons from each individual solar tower to the home base. I used blueprints in Unreal Engine to recursively run through points on a spline and that spline is used to generate the wire geometry and used as a path for the solar energy to move across.",
+    },
+    {
+        id: 11,
         content: "OpenGL.mp4",
         contentType: "video",
         alt: "OpenGL",
@@ -72,7 +96,7 @@ const items = [
         description: "A lab done for C S 355 that demonstrates the use of transformation matrices and projection to emulate camera movement and animations.",
     },
     {
-        id: 10,
+        id: 12,
         content: "Reversi.mp4",
         contentType: "video",
         alt: "Reversi AI Bot",
@@ -80,7 +104,7 @@ const items = [
         description: "For C S 470, we wrote an alphabeta pruning algorithm to evaluate the optimal move to make in Reversi by calculating multiple moves ahead.",
     },
     {
-        id: 11,
+        id: 13,
         content: "Kiwi_Turnaround.mp4",
         contentType: "video",
         alt: "Kiwi Turnaround",
@@ -88,7 +112,7 @@ const items = [
         description: "The result of my fruit shader project for CSANM 354. The modeling was done in Maya, the fur and most of the materials/shaders were done in Houdini, and the textures were partially done with Substance Painter.",
     },
     {
-        id: 12,
+        id: 14,
         content: "legoProject.jpg",
         contentType: "image",
         alt: "Lego Smash Bros.",
@@ -96,7 +120,7 @@ const items = [
         description: "Models I created in CSANM 150 for the Lego Project. All modeling, texture work, lighting, and rendering were done in Maya.",
     },
     {
-        id: 13,
+        id: 15,
         content: "laptop.jpg",
         contentType: "image",
         alt: "Laptop",
@@ -104,15 +128,23 @@ const items = [
         description: "A recreation of my current laptop in Blender. All textures and modeling was done in Blender.",
     },
     {
-        id: 14,
+        id: 16,
+        content: "GameCube_Turnaround.mp4",
+        contentType: "video",
+        alt: "GameCube",
+        category: "art",
+        description: "A model of a Gamecube I made in Blender. I am a big fan of the GameCube. It had a bunch of great games.",
+    },
+    {
+        id: 17,
         content: "controller.png",
         contentType: "image",
         alt: "Controller",
         category: "art",
-        description: "A model of a Gamecube controller made in Blender. I am a big fan of the GameCube. It had a bunch of great games, and this is personally my favorite controller.",
+        description: "A model of a Gamecube controller made in Blender. This is personally my favorite controller.",
     },
     {
-        id: 15,
+        id: 18,
         content: "fire_hydrant.png",
         contentType: "image",
         alt: "Fire Hydrant",
@@ -120,7 +152,7 @@ const items = [
         description: "More modeling practice in Blender",
     },
     {
-        id: 16,
+        id: 19,
         content: "ipod.jpg",
         contentType: "image",
         alt: "iPod",
@@ -128,7 +160,7 @@ const items = [
         description: "Modeled and textured in Blender based on my own iPod touch.",
     },
     {
-        id: 17,
+        id: 20,
         content: "TrafficLight_Turnaround.mp4",
         contentType: "video",
         alt: "Traffic Light Model",
@@ -136,15 +168,15 @@ const items = [
         description: "Some basic modeling and shaders made in Blender.",
     },
     {
-        id: 18,
+        id: 21,
         content: "Twitter_Clone.mp4",
         contentType: "video",
         alt: "Twitter Clone",
         category: "cs",
-        description: "The result of building a Twitter clone Android app in 14 weeks from the gound up. It is missing much of the functionality because it was no longer connected to the database that was hosted through DynamoDB. This project used AWS APIGateway for endpoints, DynamoDB as a database, S3 Buckets for storage, and Cognito for authentication. The code was all written from scratch in Java, for both the backend server and front end. I worked with another student and we used a mixture of Intellij and Android Studio.",
+        description: "The result of building a Twitter clone Android app in 14 weeks from the ground up. It is missing much of the functionality because it was no longer connected to the database that was hosted through DynamoDB. This project used AWS APIGateway for endpoints, DynamoDB as a database, S3 Buckets for storage, and Cognito for authentication. The code was all written from scratch in Java, for both the backend server and front end. I worked with another student and we used a mixture of Intellij and Android Studio.",
     },
     {
-        id: 19,
+        id: 22,
         content: "Value_Iteration.mp4",
         contentType: "video",
         alt: "Value Iteration",
@@ -152,7 +184,7 @@ const items = [
         description: "In C S 470, we were tasked with the goal of using bayes filter to generate beliefs about the robot's surroundings and uses value iteration to determine the movements it should make given the beliefs that are simulated.",
     },
     {
-        id: 20,
+        id: 23,
         content: "mailbox.png",
         contentType: "image",
         alt: "Mailbox",

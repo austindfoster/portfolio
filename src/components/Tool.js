@@ -1,7 +1,7 @@
 const Tool = (props) => {
-    const { tool, delay } = props;
+    const { tool, delay, visible } = props;
     return (
-      <div className="tool" style={{"--animation-order": `${delay}`}}>
+      <div className={`tool ${visible ? "show" : ''}`} style={{"--animation-order": `${delay}`}}>
         <div className="detail-block">
           <div className="image">
             <img src={require(`../images/${tool.logo}`)} alt={tool.name}/>

@@ -26,15 +26,8 @@ const Item = (props) => {
     content = <p>Error content unavailable</p>;
   }
 
-  // const cN = document.getElementsByClassName("item-block");
-  // console.log(cN);
-  // if (num % 2 === 0) {
-  //   console.log(cN);
-  //   cN[num].classList.replace("item","item-left");
-  // }
-
   return (
-    <div className="item">
+    <div id={item.id} className="item">
       <div className="item-description">
         <p>{item.description}</p>
       </div>

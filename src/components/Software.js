@@ -1,7 +1,7 @@
 const Software = (props) => {
-    const { software, delay } = props;
+    const { software, delay, visible } = props;
     return (
-      <div className="software" style={{"--animation-order": `${delay}`}}>
+      <div className={`software ${visible ? "show" : ''}`} style={{"--animation-order": `${delay}`}}>
         <div className="detail-block">
           <div className="image">
             <img src={require(`../images/${software.logo}`)} alt={software.name}/>

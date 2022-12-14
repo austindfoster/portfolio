@@ -1,28 +1,27 @@
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import { useEffect } from "react";
 import Intro from "./components/Intro";
 import Art from "./pages/Art";
 import Programming from "./pages/Programming";
 import About from "./pages/About";
+import JobExperience from "./pages/JobExperience";
 import content from "./mockdata/Item-List";
 import languages from "./mockdata/Language-List";
 import software from "./mockdata/Software-List";
 import tools from "./mockdata/Tool-List";
+import jobs from "./mockdata/Job-List";
 import "./App.css";
-import { useEffect } from "react";
-import JobExperience from "./pages/JobExperience";
 
 export default function App() {
-  //console.log(cN);
   useEffect(() => {
     const cN = document.getElementsByClassName("item");
     for (let i = 0; i < cN.length; i++) {
-    console.log(cN[i].childNodes[0].firstChild.textContent);
-    if (i % 2 === 0) {
-      cN[i].classList.replace("item", "item-left");
+      if (parseInt(cN[i].id) % 2 === 0) {
+        cN[i].classList.replace("item", "item-left");
+      }
     }
-  }
-  },[]);
+  }, []);
   return (
     <BrowserRouter>
       <nav>
@@ -56,18 +55,7 @@ export default function App() {
         software={software}
         items={content.filter((item) => item.category === "art")}
       />
-      <JobExperience/>
+      <JobExperience jobs={jobs}/>
     </BrowserRouter>
   );
 }
-
-// const cards = document.querySelectorAll(".detail-block");
-// const observer = new IntersectionObserver(entries => {
-//   entries.forEach(entry => {
-//     entries.target.classList.toggle("show", entry.isIntersecting);
-//   })
-// });
-
-// cards.forEach(card => {
-//   observer.observe(card);
-// })

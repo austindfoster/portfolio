@@ -37,10 +37,15 @@ nav {
   flex-direction: row;
 }
 
+section {
+  margin: 15% auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -76,7 +81,8 @@ nav {
   border-radius: 50px; */
 }
 
-.content img, video {
+.content img,
+video {
   /* max-width: 400px; */
   max-height: 100%;
   border-radius: 10px;
@@ -88,7 +94,7 @@ nav {
 
 .topic {
   font-size: 40px;
-  background-image: linear-gradient(45deg,rgb(174, 0, 255) 20%, cyan,rgb(174, 0, 255) 80%);
+  background-image: linear-gradient(45deg, rgb(174, 0, 255) 20%, cyan, rgb(174, 0, 255) 80%);
   width: fit-content;
   margin: 5% auto;
   background-clip: text;
@@ -105,7 +111,7 @@ nav {
   border-width: 5px;
   background-clip: border-box;
   border-color: transparent;
-  background-image: repeating-linear-gradient(rgb(136, 2, 156),rgb(0, 81, 255) 10%,rgb(136, 2, 156));
+  background-image: repeating-linear-gradient(rgb(136, 2, 156), rgb(0, 81, 255) 10%, rgb(136, 2, 156));
 }
 
 @media only screen and (min-width: 1024px) {
@@ -160,7 +166,9 @@ nav {
 }
 
 
-.language, .software, .tool {
+.language,
+.software,
+.tool {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -168,10 +176,15 @@ nav {
   width: 275px;
   margin: 2%;
   align-items: center;
-  animation: slide-down 2s ease calc(var(--animation-order) * 300ms) forwards;
-  --animation-order: 0;
   transition: all 3s;
   opacity: 0;
+  --animation-order: 0;
+}
+
+.language.show,
+.software.show,
+.tool.show {
+  animation: slide-down 2s ease calc(var(--animation-order) * 300ms) forwards;
 }
 
 
@@ -196,6 +209,7 @@ nav {
     transform: translateY(-100px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -229,7 +243,8 @@ nav {
   width: 0;
 }
 
-.description, .item-description {
+.description,
+.item-description {
   overflow: hidden;
   text-size-adjust: inherit;
   z-index: 0;
@@ -238,7 +253,8 @@ nav {
   transition: height 1s, opacity 1s, width 1s;
 }
 
-.description p, .item-description p {
+.description p,
+.item-description p {
   max-width: 100%;
   text-align: left;
   font-size: medium;
@@ -255,7 +271,8 @@ nav {
   /* animation: show-info 2s ease 0s infinite alternate; */
 }
 
-.item:hover .item-description, .item-left:hover .item-description {
+.item:hover .item-description,
+.item-left:hover .item-description {
   display: flex;
   width: 50%;
   opacity: 1;
@@ -265,4 +282,15 @@ nav {
 .car.show {
   transform: translateX(0);
   opacity: 1;
+}
+
+.empty {
+  visibility: hidden;
+}
+
+.job {
+  display: flex;
+  justify-content: center;
+  column-gap: 2em;
+  align-items: center;
 }

@@ -1,9 +1,10 @@
 const jobs = [
     {
         id: 1,
-        titile: ,
-        category: "art",
-        description: "A model created in Maya. I took it from the proxy stage to a high-poly, more detailed model. This model is the farmer's home base in BYU's tower defense RTS, Solar Showdown (2022-2023). I completed the Silo and Claw models while Joseph Tandiman finished the Farmhouse model, whom also created the conept art as well.",
+        title: "TA (Teachers Assistant)",
+        company: "BYU CS 260: Web Design",
+        time: "August 2022 - Current",
+        description: "I am currently the TA for BYU's web design class. The class material covers HTML, CSS, JavaScript, React, MongoDB, Node, Express, Firebase, and AWS EC2 remote deployment.",
     },
 ];
 module.exports = jobs;

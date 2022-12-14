@@ -1,8 +1,8 @@
 const Language = (props) => {
-  const { language, delay } = props;
+  const { language, delay, visible } = props;
 
   return (
-    <div className="language" style={{ "--animation-order": `${delay}` }}>
+    <div className={`language ${visible ? "show" : ''}`} style={{ "--animation-order": `${delay}` }}>
       <div className="detail-block">
         <div className="image">
           <img
