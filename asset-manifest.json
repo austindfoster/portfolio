@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0b0b4a4f.css",
-    "main.js": "/portfolio/static/js/main.6a68ebf3.js",
+    "main.css": "/portfolio/static/css/main.a2dc35d0.css",
+    "main.js": "/portfolio/static/js/main.3e5479f1.js",
     "static/js/787.3e3d9bd7.chunk.js": "/portfolio/static/js/787.3e3d9bd7.chunk.js",
     "static/media/Twitter_Clone.mp4": "/portfolio/static/media/Twitter_Clone.efbe824c2cf0160b4f20.mp4",
     "static/media/Piano_Turnaround.mp4": "/portfolio/static/media/Piano_Turnaround.fc4a4b6e997189ea2fa9.mp4",
@@ -13,15 +13,23 @@
     "static/media/Farmhouse_Animation.mp4": "/portfolio/static/media/Farmhouse_Animation.b6e5456b5d53493752c1.mp4",
     "static/media/Train_Turnaround.mp4": "/portfolio/static/media/Train_Turnaround.afd59e6c648ef15cc3d7.mp4",
     "static/media/Makoto_Turnaround.mp4": "/portfolio/static/media/Makoto_Turnaround.e7d52040f1cbad18d07f.mp4",
+    "static/media/SparksSim.mp4": "/portfolio/static/media/SparksSim.13231bc23fec9339b217.mp4",
+    "static/media/Madeline_Turnaround.mp4": "/portfolio/static/media/Madeline_Turnaround.e1fb41b0965fc4b4cf3a.mp4",
     "static/media/Value_Iteration.mp4": "/portfolio/static/media/Value_Iteration.8b67849ca1b7c5ef529f.mp4",
     "static/media/BotanistSolarTower_Turnaround.mp4": "/portfolio/static/media/BotanistSolarTower_Turnaround.c11eebbe2e014944c43c.mp4",
     "static/media/Reversi.mp4": "/portfolio/static/media/Reversi.5d806f699447f668837f.mp4",
+    "static/media/SmokeSim.mp4": "/portfolio/static/media/SmokeSim.06eda35006987a840581.mp4",
     "static/media/OpenGL.mp4": "/portfolio/static/media/OpenGL.73396e4e6dac50623b3f.mp4",
+    "static/media/ShatterSim.mp4": "/portfolio/static/media/ShatterSim.e918765a4e3492a7391d.mp4",
     "static/media/FarmhouseModel.mp4": "/portfolio/static/media/FarmhouseModel.84eb66e4b24ebed42eb7.mp4",
     "static/media/Pen_Turnaround.mp4": "/portfolio/static/media/Pen_Turnaround.acf5f2cef10e85487c6a.mp4",
+    "static/media/FlagSim.mp4": "/portfolio/static/media/FlagSim.8e134d94fc8f109c9f7a.mp4",
+    "static/media/Laptop_Turnaround.mp4": "/portfolio/static/media/Laptop_Turnaround.a2a9c00a059102d93a71.mp4",
+    "static/media/Controller_Turnaround.mp4": "/portfolio/static/media/Controller_Turnaround.f1cf21fe60dee0d532df.mp4",
     "static/media/profile.JPG": "/portfolio/static/media/profile.d5c339ec4c4a063d19ee.JPG",
     "static/media/Luffy_Turnaround.mp4": "/portfolio/static/media/Luffy_Turnaround.02a89142534928bcaca8.mp4",
     "static/media/legoProject.jpg": "/portfolio/static/media/legoProject.743ce9f9e26c9d0f7a37.jpg",
+    "static/media/InsectProject.jpg": "/portfolio/static/media/InsectProject.1420a2f8b04b5fbcd899.jpg",
     "static/media/fire_hydrant.png": "/portfolio/static/media/fire_hydrant.c51eca307b4ac9ab16e4.png",
     "static/media/mailbox.png": "/portfolio/static/media/mailbox.f03ebe138d00d2b49a6c.png",
     "static/media/controller.png": "/portfolio/static/media/controller.2266fcbcbc15cd188d4d.png",
@@ -61,12 +69,12 @@
     "static/media/JavaScript_logo.svg": "/portfolio/static/media/JavaScript_logo.acc4642f682cd93a4c20.svg",
     "static/media/HTML5_logo.svg": "/portfolio/static/media/HTML5_logo.aff8a9cb398fc75e4f21.svg",
     "static/media/vue_logo.svg": "/portfolio/static/media/vue_logo.f1fd23be1db9361fbcd8.svg",
-    "main.0b0b4a4f.css.map": "/portfolio/static/css/main.0b0b4a4f.css.map",
-    "main.6a68ebf3.js.map": "/portfolio/static/js/main.6a68ebf3.js.map",
+    "main.a2dc35d0.css.map": "/portfolio/static/css/main.a2dc35d0.css.map",
+    "main.3e5479f1.js.map": "/portfolio/static/js/main.3e5479f1.js.map",
     "787.3e3d9bd7.chunk.js.map": "/portfolio/static/js/787.3e3d9bd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b0b4a4f.css",
-    "static/js/main.6a68ebf3.js"
+    "static/css/main.a2dc35d0.css",
+    "static/js/main.3e5479f1.js"
   ]
 }
