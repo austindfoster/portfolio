@@ -11,13 +11,15 @@ import languages from "./mockdata/Language-List";
 import software from "./mockdata/Software-List";
 import tools from "./mockdata/Tool-List";
 import jobs from "./mockdata/Job-List";
+import wips from "./mockdata/WIP_List";
 import "./App.css";
+import WIPMasonry from "./pages/WIPMasonry";
 
 export default function App() {
   useEffect(() => {
     const cN = document.getElementsByClassName("item");
     for (let i = 0; i < cN.length; i++) {
-      if (parseInt(cN[i].id) % 2 === 0) {
+      if (parseInt(cN[i].id.substring(1)) % 2 === 0) {
         cN[i].classList.replace("item", "item-left");
       }
     }
@@ -56,6 +58,7 @@ export default function App() {
         items={content.filter((item) => item.category === "art")}
       />
       <JobExperience jobs={jobs}/>
+      <WIPMasonry wips={wips}/>
     </BrowserRouter>
   );
 }

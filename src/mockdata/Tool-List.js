@@ -20,7 +20,7 @@ const tools = [
         name: "React",
         logo: "logo.svg",
         category: "cs",
-        experience: "1 month",
+        experience: "2 months",
         description: "Used to create this portfolio and the framework we use for CS260, the class that I am a TA for.",
     },
     {
@@ -44,7 +44,7 @@ const tools = [
         name: "Caddy",
         logo: "Caddy_logo.svg",
         category: "cs",
-        experience: "1 month",
+        experience: "3 months",
         description: "Used as a web server with automatic HTTPS certification.",
     },
     {

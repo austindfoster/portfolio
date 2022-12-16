@@ -27,7 +27,7 @@ const Item = (props) => {
   }
 
   return (
-    <div id={item.id} className="item">
+    <div id={`i${item.id}`} className="item">
       <div className="item-description">
         <p>{item.description}</p>
       </div>

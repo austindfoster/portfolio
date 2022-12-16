@@ -57,39 +57,11 @@ section {
   justify-content: space-between;
 }
 
-.item {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  height: 500px;
-  justify-content: space-evenly;
-  padding: 2%;
-  margin: 5%;
-  /* border: medium groove blue;
-  border-radius: 50px; */
-}
-
-.item-left {
-  display: flex;
-  flex-direction: row-reverse;
-  max-width: 100%;
-  height: 500px;
-  justify-content: space-evenly;
-  padding: 2%;
-  margin: 5%;
-  /* border: medium groove blue;
-  border-radius: 50px; */
-}
-
 .content img,
-video {
-  /* max-width: 400px; */
+.content video {
+  max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
-}
-
-.about-description {
-  text-align: left;
 }
 
 .topic {
@@ -114,57 +86,46 @@ video {
   background-image: repeating-linear-gradient(rgb(136, 2, 156), rgb(0, 81, 255) 10%, rgb(136, 2, 156));
 }
 
-@media only screen and (min-width: 1024px) {
-  nav {
-    font-size: larger;
-  }
-
-  .about-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .profile-pic {
-    width: 50%;
-    max-height: 400px;
-  }
+.wip {
+  margin-bottom: 1em;
+  transition: transform 1s;
+  z-index: 0;
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  nav {
-    font-size: large;
-  }
-
-  .about-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .profile-pic {
-    width: 50%;
-  }
+.wip img, .wip video {
+  border-radius: 20px;
 }
 
-@media only screen and (max-width: 767px) {
-  nav {
-    font-size: small;
-  }
-
-  .about-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .profile-pic {
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-  }
+.wip:hover {
+  z-index: 1;
+  transform: scale(1.5) rotateZ(5deg);
 }
 
+.description,
+.item-description {
+  overflow: hidden;
+  text-size-adjust: inherit;
+  z-index: 0;
+  opacity: 0;
+  transition: height 1s, opacity 3s, width 1s;
+}
+
+.description p,
+.item-description p {
+  max-width: 100%;
+  text-align: left;
+  font-size: medium;
+  margin-top: 10%;
+  text-indent: 10%;
+}
+
+.language:hover .description,
+.software:hover .description,
+.tool:hover .description {
+  display: flex;
+  height: 500px;
+  opacity: 1;
+}
 
 .language,
 .software,
@@ -173,10 +134,10 @@ video {
   flex-direction: column;
   justify-content: space-around;
   max-height: 300px;
-  width: 275px;
+  width: 375px;
   margin: 2%;
   align-items: center;
-  transition: all 3s;
+  transition: height 1s, opacity 3s;
   opacity: 0;
   --animation-order: 0;
 }
@@ -186,8 +147,6 @@ video {
 .tool.show {
   animation: slide-down 2s ease calc(var(--animation-order) * 300ms) forwards;
 }
-
-
 
 .image img {
   height: 100px;
@@ -239,46 +198,6 @@ video {
   height: 0;
 }
 
-.item-description {
-  width: 0;
-}
-
-.description,
-.item-description {
-  overflow: hidden;
-  text-size-adjust: inherit;
-  z-index: 0;
-  opacity: 0;
-  transform: translateX(0);
-  transition: height 1s, opacity 1s, width 1s;
-}
-
-.description p,
-.item-description p {
-  max-width: 100%;
-  text-align: left;
-  font-size: medium;
-  margin-top: 10%;
-  text-indent: 10%;
-}
-
-.language:hover .description,
-.software:hover .description,
-.tool:hover .description {
-  display: flex;
-  height: 500px;
-  opacity: 1;
-  /* animation: show-info 2s ease 0s infinite alternate; */
-}
-
-.item:hover .item-description,
-.item-left:hover .item-description {
-  display: flex;
-  width: 50%;
-  opacity: 1;
-  margin: 2%;
-}
-
 .car.show {
   transform: translateX(0);
   opacity: 1;
@@ -293,4 +212,186 @@ video {
   justify-content: center;
   column-gap: 2em;
   align-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    font-size: larger;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .about-description {
+    text-align: left;
+  }
+
+  .profile-pic {
+    width: 50%;
+    max-height: 400px;
+  }
+
+  .item-description {
+    width: 0;
+  }
+
+  .item:hover .item-description,
+  .item-left:hover .item-description {
+    display: flex;
+    width: 50%;
+    opacity: 1;
+    margin: 2%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 5%;
+  }
+
+  .item-left {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 5%;
+  }
+
+  .masonry {
+    column-count: 4;
+    column-gap: 1em;
+    margin: 5%;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  nav {
+    font-size: large;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .about-description {
+    text-align: left;
+  }
+
+  .profile-pic {
+    width: 50%;
+  }
+
+  .item-description {
+    width: 0;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 5%;
+    /* border: medium groove blue;
+    border-radius: 50px; */
+  }
+
+  .item-left {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 5%;
+    /* border: medium groove blue;
+    border-radius: 50px; */
+  }
+
+  .item:hover .item-description,
+  .item-left:hover .item-description {
+    display: flex;
+    width: 50%;
+    opacity: 1;
+    margin: 2%;
+  }
+
+  .masonry {
+    column-count: 3;
+    column-gap: 1em;
+    margin: 5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav {
+    font-size: small;
+  }
+
+  p {
+    font-size: medium;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-description {
+    text-align: left;
+    margin: auto 5%;
+  }
+
+  .profile-pic {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+  }
+
+  .item-description {
+    height: 0;
+  }
+
+  .item,
+  .item-left {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    max-height: 100%;
+    align-items: center;
+    transition: height 1s, opacity 3s;
+  }
+
+  .item-description p {
+    max-width: 100%;
+    text-align: center;
+    font-size: medium;
+    margin-top: 5%;
+    text-indent: 10%;
+  }
+
+  .item:hover .item-description,
+  .item-left:hover .item-description {
+    opacity: 1;
+    height: 250px;
+  }
+
+  .masonry {
+    column-count: 2;
+    column-gap: 1em;
+    margin: 5%;
+  }
 }
