@@ -12,8 +12,10 @@ import software from "./mockdata/Software-List";
 import tools from "./mockdata/Tool-List";
 import jobs from "./mockdata/Job-List";
 import wips from "./mockdata/WIP_List";
+import links from "./mockdata/Links";
 import "./App.css";
 import WIPMasonry from "./pages/WIPMasonry";
+import Contact from "./pages/Contact";
 
 export default function App() {
   useEffect(() => {
@@ -29,12 +31,12 @@ export default function App() {
       <nav>
         <ul>
           <li>
-            <Link to="#home" smooth>
+            <Link to="#top" smooth>
               Home();
             </Link>
           </li>
           <li>
-            <Link to="#cs" smooth>
+            <Link to="#programming" smooth>
               Programming();
             </Link>
           </li>
@@ -45,20 +47,25 @@ export default function App() {
           </li>
         </ul>
       </nav>
+      <div id="top" className="spacer"></div>
       <Intro />
       <About />
+      <Contact links={links} />
+      <div id="programming" className="spacer"></div>
       <Programming
         languages={languages}
         software={software}
         tools={tools}
         items={content.filter((item) => item.category === "cs")}
       />
+      <div id="art" className="spacer"></div>
       <Art
         software={software}
         items={content.filter((item) => item.category === "art")}
       />
-      <JobExperience jobs={jobs}/>
-      <WIPMasonry wips={wips}/>
+      <div id="jobs" className="spacer"></div>
+      <JobExperience jobs={jobs} />
+      <WIPMasonry wips={wips} />
     </BrowserRouter>
   );
 }

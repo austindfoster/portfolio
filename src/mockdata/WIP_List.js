@@ -5,6 +5,7 @@ const wips = [
         contentType: "image",
         alt: "clawcloseup",
         category: "art",
+        skills: ["maya"],
         description: "A simple Blender model of a mailbox made in about 15 minutes",
     },
     {
@@ -13,6 +14,7 @@ const wips = [
         contentType: "video",
         alt: "Madeline from Celeste",
         category: "art",
+        skills: ["blender"],
         description: "A sculpt made of the character Madeline from Celeste I made over the summer. Sculpting, Modeling, and Texturing done in Blender",
     },
     {
@@ -21,6 +23,7 @@ const wips = [
         contentType: "image",
         alt: "Insect Project",
         category: "art",
+        skills: ["maya"],
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
@@ -29,6 +32,7 @@ const wips = [
         contentType: "video",
         alt: "Sparks Simulation",
         category: "art",
+        skills: ["houdini"],
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
@@ -37,6 +41,7 @@ const wips = [
         contentType: "video",
         alt: "Smoke Simulation",
         category: "art",
+        skills: ["houdini"],
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
@@ -45,6 +50,7 @@ const wips = [
         contentType: "video",
         alt: "Flag Cloth Simulation",
         category: "art",
+        skills: ["houdini"],
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
@@ -53,6 +59,7 @@ const wips = [
         contentType: "video",
         alt: "Shatter Simulation",
         category: "art",
+        skills: ["houdini"],
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
@@ -61,6 +68,7 @@ const wips = [
         contentType: "image",
         alt: "Pen Shader",
         category: "art",
+        skills: ["houdini","substance painter","maya"],
         description: "As a part of CSANM 354, we were given the task of recreating an object in real life to blend into a photograph. The pen in the image is CGI and was modeled and shaded by me. The modeling was done in Blender, the shaders were painted on in Substance Painter, and the image composition was done in Nuke.",
     },
     {
@@ -69,6 +77,7 @@ const wips = [
         contentType: "image",
         alt: "Lego Smash Bros.",
         category: "art",
+        skills: ["maya"],
         description: "Models I created in CSANM 150 for the Lego Project. All modeling, texture work, lighting, and rendering were done in Maya.",
     },
     {
@@ -77,6 +86,7 @@ const wips = [
         contentType: "image",
         alt: "Fire Hydrant",
         category: "art",
+        skills: ["blender"],
         description: "More modeling practice in Blender",
     },
     {
@@ -85,6 +95,7 @@ const wips = [
         contentType: "image",
         alt: "iPod",
         category: "art",
+        skills: ["blender"],
         description: "Modeled and textured in Blender based on my own iPod touch.",
     },
     {
@@ -93,6 +104,7 @@ const wips = [
         contentType: "video",
         alt: "Traffic Light Model",
         category: "art",
+        skills: ["blender"],
         description: "Some basic modeling and shaders made in Blender.",
     },
     {
@@ -101,6 +113,7 @@ const wips = [
         contentType: "image",
         alt: "Mailbox",
         category: "art",
+        skills: ["blender"],
         description: "A simple Blender model of a mailbox made in about 15 minutes",
     },
     {
@@ -109,6 +122,7 @@ const wips = [
         contentType: "image",
         alt: "silocloseup",
         category: "art",
+        skills: ["maya"],
         description: "A simple Blender model of a mailbox made in about 15 minutes",
     },
 ];

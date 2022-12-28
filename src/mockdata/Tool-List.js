@@ -2,7 +2,7 @@ const tools = [
     {
         id: 0,
         name: "Bash",
-        logo: "Gnu-bash-logo.svg",
+        logo: "bash.svg",
         category: "cs",
         experience: "3+ years",
         description: "Used to naviate linux, write scripts, connect to remote servers, run commandline programs.",

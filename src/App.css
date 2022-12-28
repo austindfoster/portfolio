@@ -38,7 +38,7 @@ nav {
 }
 
 section {
-  margin: 15% auto;
+  margin-top: 5%;
 }
 
 @keyframes App-logo-spin {
@@ -64,11 +64,15 @@ section {
   border-radius: 10px;
 }
 
+.spacer {
+  height: 1px;
+}
+
 .topic {
   font-size: 40px;
   background-image: linear-gradient(45deg, rgb(174, 0, 255) 20%, cyan, rgb(174, 0, 255) 80%);
   width: fit-content;
-  margin: 5% auto;
+  margin: auto;
   background-clip: text;
   color: transparent;
 }
@@ -92,7 +96,8 @@ section {
   z-index: 0;
 }
 
-.wip img, .wip video {
+.wip img,
+.wip video {
   border-radius: 20px;
 }
 
@@ -103,6 +108,10 @@ section {
 
 .description,
 .item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
   overflow: hidden;
   text-size-adjust: inherit;
   z-index: 0;
@@ -110,9 +119,18 @@ section {
   transition: height 1s, opacity 3s, width 1s;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1em;
+  height: 80px;
+  margin: auto;
+}
+
 .description p,
 .item-description p {
-  max-width: 100%;
+  max-width: 75%;
   text-align: left;
   font-size: medium;
   margin-top: 10%;
@@ -214,6 +232,13 @@ section {
   align-items: center;
 }
 
+.skill {
+  margin: 1%;
+  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 @media only screen and (min-width: 1024px) {
   nav {
     font-size: larger;
@@ -241,9 +266,8 @@ section {
   .item:hover .item-description,
   .item-left:hover .item-description {
     display: flex;
-    width: 50%;
+    width: 75%;
     opacity: 1;
-    margin: 2%;
   }
 
   .item {
@@ -315,7 +339,6 @@ section {
     height: 500px;
     justify-content: space-evenly;
     padding: 2%;
-    margin: 5%;
     /* border: medium groove blue;
     border-radius: 50px; */
   }
@@ -323,15 +346,18 @@ section {
   .item:hover .item-description,
   .item-left:hover .item-description {
     display: flex;
-    width: 50%;
+    width: 75%;
     opacity: 1;
-    margin: 2%;
   }
 
   .masonry {
     column-count: 3;
     column-gap: 1em;
     margin: 5%;
+  }
+
+  .row {
+    height: 60px;
   }
 }
 
@@ -386,12 +412,22 @@ section {
   .item:hover .item-description,
   .item-left:hover .item-description {
     opacity: 1;
-    height: 250px;
+    height: 500px;
   }
 
   .masonry {
     column-count: 2;
     column-gap: 1em;
     margin: 5%;
+  }
+
+  .row {
+    height: 40px;
+  }
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
   }
 }

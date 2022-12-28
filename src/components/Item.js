@@ -8,21 +8,22 @@ const Item = (props) => {
       <video src={require(`../videos/${item.content}`)} autoPlay muted loop>
         <p>{item.alt}</p>
       </video>
-    );} 
-//     else if (item.contentType === "iframe") {
-//     content = (
-//       <iframe
-//         width="560"
-//         height="315"
-//         src="http://www.youtube.com/embed/MiLPCkLrjUs?controls=0&autoplay=1&loop=1&playlist=MiLPCkLrjUs"
-//         title={item.alt}
-//         frameBorder="0"
-//         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-//         allowFullScreen
-//       ></iframe>
-//     );
-//   } 
-    else {
+    );
+  }
+  //     else if (item.contentType === "iframe") {
+  //     content = (
+  //       <iframe
+  //         width="560"
+  //         height="315"
+  //         src="http://www.youtube.com/embed/MiLPCkLrjUs?controls=0&autoplay=1&loop=1&playlist=MiLPCkLrjUs"
+  //         title={item.alt}
+  //         frameBorder="0"
+  //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  //         allowFullScreen
+  //       ></iframe>
+  //     );
+  //   } 
+  else {
     content = <p>Error content unavailable</p>;
   }
 
@@ -30,6 +31,12 @@ const Item = (props) => {
     <div id={`i${item.id}`} className="item">
       <div className="item-description">
         <p>{item.description}</p>
+        <div className="row">
+          <h3>Tools used: </h3>
+          {item.skills.map((skill) => (
+            <img className="skill" src={require(`../images/${skill}.svg`)} alt={`${item} ${skill}`}/>
+          ))}
+        </div>
       </div>
       <div className="content">{content}</div>
     </div>

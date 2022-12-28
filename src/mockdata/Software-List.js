@@ -10,7 +10,7 @@ const software = [
     {
         id: 1,
         name: "Blender",
-        logo: "Blender_logo.svg",
+        logo: "blender.svg",
         category: "3D",
         experience: "5+ years",
         description: "Used for Modeling, Rigging, UV Editing, Texturing, Lighting, Rendering, Procedural Geometry, and Sculpting",
@@ -18,7 +18,7 @@ const software = [
     {
         id: 2,
         name: "Houdini",
-        logo: "sidefx-houdini.svg",
+        logo: "houdini.svg",
         category: "3D",
         experience: "2 years",
         description: "Used for Procedural Shaders.",
@@ -34,7 +34,7 @@ const software = [
     {
         id: 4,
         name: "3D Substance Painter",
-        logo: "substance-painter.svg",
+        logo: "substancepainter.svg",
         category: "3D",
         experience: "1 year",
         description: "Used for texturing and multi-layered shaders.",
@@ -42,7 +42,7 @@ const software = [
     {
         id: 5,
         name: "Amazon Web Services",
-        logo: "AWS_Logo.svg",
+        logo: "aws.svg",
         category: "cs",
         experience: "1 year",
         description: "Experience with EC2 as a web server, API Gateway for API endpoints, DynamoDB for database storage, S3 for large file storage, and Route 53 for managing web domains.",
@@ -50,7 +50,7 @@ const software = [
     {
         id: 6,
         name: "Unreal Engine",
-        logo: "Unreal_Engine_Logo.svg",
+        logo: "unreal.svg",
         category: "3D",
         experience: "1 year",
         description: "Used for game development projects and for developing Solar Showdown (2023) with BYU's animation department.",
@@ -66,7 +66,7 @@ const software = [
     {
         id: 8,
         name: "IntelliJ",
-        logo: "IntelliJ.svg",
+        logo: "intellij.svg",
         category: "cs",
         experience: "2+ years",
         description: "Used as my main IDE for two Android apps.",

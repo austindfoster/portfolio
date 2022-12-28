@@ -5,6 +5,7 @@ const items = [
         contentType: "video",
         alt: "Solar Wire FX",
         category: "cs",
+        skills: ["unreal","maya"],
         description: "A procedural wire that traces the hexagons from each individual solar tower to the home base. I used blueprints in Unreal Engine to recursively run through points on a spline and that spline is used to generate the wire geometry and used as a path for the solar energy to move across.",
     },
     {
@@ -13,6 +14,7 @@ const items = [
         contentType: "video",
         alt: "OpenGL",
         category: "cs",
+        skills: ["python","vscode"],
         description: "A lab done for C S 355 that demonstrates the use of transformation matrices and projection to emulate camera movement and animations.",
     },
     {
@@ -21,6 +23,7 @@ const items = [
         contentType: "video",
         alt: "Reversi AI Bot",
         category: "cs",
+        skills: ["java","bash","vscode"],
         description: "For C S 470, we wrote an alphabeta pruning algorithm to evaluate the optimal move to make in Reversi by calculating multiple moves ahead.",
     },
     {
@@ -29,6 +32,7 @@ const items = [
         contentType: "video",
         alt: "Value Iteration",
         category: "cs",
+        skills: ["java","bash","vscode"],
         description: "In C S 470, we were tasked with the goal of using bayes filter to generate beliefs about the robot's surroundings and uses value iteration to determine the movements it should make given the beliefs that are simulated.",
     },
     {
@@ -37,6 +41,7 @@ const items = [
         contentType: "video",
         alt: "Twitter Clone",
         category: "cs",
+        skills: ["java","android","intellij","aws"],
         description: "The result of building a Twitter clone Android app in 14 weeks from the ground up. It is missing much of the functionality because it was no longer connected to the database that was hosted through DynamoDB. This project used AWS APIGateway for endpoints, DynamoDB as a database, S3 Buckets for storage, and Cognito for authentication. The code was all written from scratch in Java, for both the backend server and front end. I worked with another student and we used a mixture of Intellij and Android Studio.",
     },
     {
@@ -45,6 +50,7 @@ const items = [
         contentType: "video",
         alt: "Silo Model",
         category: "art",
+        skills: ["maya"],
         description: "A model created in Maya. I took it from the proxy stage to a high-poly, more detailed model. This model is the farmer's home base in BYU's tower defense RTS, Solar Showdown (2022-2023). I completed the Silo and Claw models while Joseph Tandiman finished the Farmhouse model, whom also created the conept art as well.",
     },
     {
@@ -53,6 +59,7 @@ const items = [
         contentType: "video",
         alt: "Silo Rig",
         category: "art",
+        skills: ["maya"],
         description: "I rigged and animated the home base claw and silo for Solar Showdown (2022-2023). The rig implements ik and fk controls, conditional parenting the silo to the claw, and scripting that zeroes out controls, matches ik to fk, and vice versa. The ik skeleton was implemented with a spline ik curve that uses the shape of the curve to control the claw cable shape.",
     },
     {
@@ -61,6 +68,7 @@ const items = [
         contentType: "video",
         alt: "Solar Tower Proxy Model",
         category: "art",
+        skills: ["maya"],
         description: "A proxy model created for Solar Showdown of the Solar Towers used as the main win condition of the game. Modeling work was all done in Maya.",
     },
     {
@@ -69,6 +77,7 @@ const items = [
         contentType: "video",
         alt: "Makoto Sculpt",
         category: "art",
+        skills: ["zbrush","blender"],
         description: "A sculpt of the character Makoto from Street Fighter based on the concept @ffffcoffee made on Twitter. I made this during my 14 day free trial of ZBrush. I had never used Zbrush before and I think I got the hang of many of the important tools while working on this sculpt. The turnaround was rendered in Blender.",
     },
     {
@@ -77,6 +86,7 @@ const items = [
         contentType: "video",
         alt: "Daisy Model",
         category: "art",
+        skills: ["blender"],
         description: "A character model I am working on to improve my character modeling and sculpting skills. All sculpting and modeling was done in Blender. The model is based off of a concept made by @AutomaticGiraffe on Twitter of the character Daisy from the Mario franchise. My main goal with this piece was to improve sculpting the face and better work with hair sculpts.",
     },
     {
@@ -85,6 +95,7 @@ const items = [
         contentType: "video",
         alt: "Luffy",
         category: "art",
+        skills: ["blender"],
         description: "A model of Luffy from One Piece I made over the summer in Blender.",
     },
     {
@@ -93,6 +104,7 @@ const items = [
         contentType: "video",
         alt: "Train Model",
         category: "art",
+        skills: ["blender"],
         description: "A model I am working on in Blender to practice Hard Surface modeling.",
     },
     {
@@ -101,6 +113,7 @@ const items = [
         contentType: "video",
         alt: "Piano Model",
         category: "art",
+        skills: ["blender"],
         description: "A model I had been working on over the summer to practice procedural modeling techniques. Made in Blender.",
     },
     {
@@ -109,6 +122,7 @@ const items = [
         contentType: "video",
         alt: "Pen Shader Turnaround",
         category: "art",
+        skills: ["houdini","substancepainter","maya"],
         description: "Here is the turnaround for the pen shader assignment.",
     },
     {
@@ -117,6 +131,7 @@ const items = [
         contentType: "video",
         alt: "Kiwi Turnaround",
         category: "art",
+        skills: ["houdini", "substancepainter", "maya"],
         description: "The result of my fruit shader project for CSANM 354. The modeling was done in Maya, the fur and most of the materials/shaders were done in Houdini, and the textures were partially done with Substance Painter.",
     },
     {
@@ -125,6 +140,7 @@ const items = [
         contentType: "video",
         alt: "Laptop",
         category: "art",
+        skills: ["blender"],
         description: "A recreation of my current laptop in Blender. All textures and modeling was done in Blender.",
     },
     {
@@ -133,6 +149,7 @@ const items = [
         contentType: "video",
         alt: "GameCube",
         category: "art",
+        skills: ["blender"],
         description: "A model of a Gamecube I made in Blender. I am a big fan of the GameCube. It had a bunch of great games.",
     },
     {
@@ -141,6 +158,7 @@ const items = [
         contentType: "video",
         alt: "Controller",
         category: "art",
+        skills: ["blender"],
         description: "A model of a Gamecube controller made in Blender. This is personally my favorite controller.",
     },
 ];

@@ -16,7 +16,7 @@ const languages = [
     {
         id: 2,
         name: "Blueprints",
-        logo: "Unreal_Engine_Logo.svg",
+        logo: "unreal.svg",
         experience: "8 months",
         description: "Used for work on Solar Showdown (2023), the video game made by BYU's animation program and for personal projects.",
     },
