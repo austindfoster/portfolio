@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.01519fa6.css",
-    "main.js": "/portfolio/static/js/main.5f92ea24.js",
+    "main.css": "/portfolio/static/css/main.bffff9d5.css",
+    "main.js": "/portfolio/static/js/main.d2ef1106.js",
     "static/js/787.3e3d9bd7.chunk.js": "/portfolio/static/js/787.3e3d9bd7.chunk.js",
     "static/media/Twitter_Clone.mp4": "/portfolio/static/media/Twitter_Clone.efbe824c2cf0160b4f20.mp4",
     "static/media/Piano_Turnaround.mp4": "/portfolio/static/media/Piano_Turnaround.fc4a4b6e997189ea2fa9.mp4",
@@ -25,11 +25,13 @@
     "static/media/Pen_Turnaround.mp4": "/portfolio/static/media/Pen_Turnaround.acf5f2cef10e85487c6a.mp4",
     "static/media/FlagSim.mp4": "/portfolio/static/media/FlagSim.8e134d94fc8f109c9f7a.mp4",
     "static/media/Laptop_Turnaround.mp4": "/portfolio/static/media/Laptop_Turnaround.a2a9c00a059102d93a71.mp4",
+    "static/media/FireHydrant_Turnaround.mp4": "/portfolio/static/media/FireHydrant_Turnaround.583a14f915f0d9929e64.mp4",
     "static/media/Controller_Turnaround.mp4": "/portfolio/static/media/Controller_Turnaround.f1cf21fe60dee0d532df.mp4",
     "static/media/profile.JPG": "/portfolio/static/media/profile.d5c339ec4c4a063d19ee.JPG",
     "static/media/Luffy_Turnaround.mp4": "/portfolio/static/media/Luffy_Turnaround.02a89142534928bcaca8.mp4",
     "static/media/legoProject.jpg": "/portfolio/static/media/legoProject.743ce9f9e26c9d0f7a37.jpg",
     "static/media/InsectProject.jpg": "/portfolio/static/media/InsectProject.1420a2f8b04b5fbcd899.jpg",
+    "static/media/N_Turnaround.mp4": "/portfolio/static/media/N_Turnaround.9cee5ad4638107ca603b.mp4",
     "static/media/fire_hydrant.png": "/portfolio/static/media/fire_hydrant.c51eca307b4ac9ab16e4.png",
     "static/media/mailbox.png": "/portfolio/static/media/mailbox.f03ebe138d00d2b49a6c.png",
     "static/media/controller.png": "/portfolio/static/media/controller.2266fcbcbc15cd188d4d.png",
@@ -44,7 +46,7 @@
     "static/media/c-sharp-programming-language-icon.svg": "/portfolio/static/media/c-sharp-programming-language-icon.834de1bc76e088bf58d1.svg",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.71d0e1c601a0b5bc820c.svg",
     "static/media/python.svg": "/portfolio/static/media/python.90a37ab8213f531de737.svg",
-    "static/media/zbrush.svg": "/portfolio/static/media/zbrush.7487645c0efba27358bd.svg",
+    "static/media/zbrush.svg": "/portfolio/static/media/zbrush.dbb2056030ea979d5fe0.svg",
     "static/media/mysql.svg": "/portfolio/static/media/mysql.e5a509a5d3ca7443ae6c.svg",
     "static/media/Node.js_logo.svg": "/portfolio/static/media/Node.js_logo.dd47e26ed1d7dddf018e.svg",
     "static/media/vscode.svg": "/portfolio/static/media/vscode.5f6c87ee85944898b668.svg",
@@ -72,12 +74,12 @@
     "static/media/JavaScript_logo.svg": "/portfolio/static/media/JavaScript_logo.acc4642f682cd93a4c20.svg",
     "static/media/HTML5_logo.svg": "/portfolio/static/media/HTML5_logo.aff8a9cb398fc75e4f21.svg",
     "static/media/vue_logo.svg": "/portfolio/static/media/vue_logo.f1fd23be1db9361fbcd8.svg",
-    "main.01519fa6.css.map": "/portfolio/static/css/main.01519fa6.css.map",
-    "main.5f92ea24.js.map": "/portfolio/static/js/main.5f92ea24.js.map",
+    "main.bffff9d5.css.map": "/portfolio/static/css/main.bffff9d5.css.map",
+    "main.d2ef1106.js.map": "/portfolio/static/js/main.d2ef1106.js.map",
     "787.3e3d9bd7.chunk.js.map": "/portfolio/static/js/787.3e3d9bd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01519fa6.css",
-    "static/js/main.5f92ea24.js"
+    "static/css/main.bffff9d5.css",
+    "static/js/main.d2ef1106.js"
   ]
 }
