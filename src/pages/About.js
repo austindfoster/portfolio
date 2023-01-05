@@ -17,12 +17,10 @@ const About = () => {
           </p>
           <br />
           <p>
-            I am a Software Engineer, but I also have a
-            strong passion for animation and gaming. This winter semester is my last.
-            I am currently working on a ratings and reviews system for the MutualDates 
-            Android app as my software engineering capstone and I am also working on the 
-            animation department's annual videogame project.
-            This year it is a tower defense RTS called Solar Showdown. 
+            I have a strong passion for coding, animation and gaming. 
+            Currently I am working on a ratings and reviews system for the MutualDates 
+            Android app as my software engineering capstone, working as a TA for BYU's web development course, 
+            and working on the animation department's annual videogame project, Solar Showdown. 
             Feel free to look throught the projects I have worked on down below.
           </p>
         </div>

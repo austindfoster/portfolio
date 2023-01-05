@@ -71,7 +71,7 @@ export default function App() {
         items={content.filter((item) => item.category === "art")}
       />
       <div id="jobs" className="spacer"></div>
-      <JobExperience jobs={jobs} />
+      {/* <JobExperience jobs={jobs} /> */}
       <WIPMasonry wips={wips} />
     </BrowserRouter>
   );
