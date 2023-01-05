@@ -70,7 +70,7 @@ section {
 
 .topic {
   font-size: 40px;
-  background-image: linear-gradient(45deg, rgb(174, 0, 255) 20%, cyan, rgb(174, 0, 255) 80%);
+  background-image: linear-gradient(45deg, rgba(174, 0, 255, 0.803) 20%, rgba(0, 255, 255, 0.688), rgba(174, 0, 255, 0.737) 80%);
   width: fit-content;
   margin: auto;
   background-clip: text;

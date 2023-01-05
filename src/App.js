@@ -26,6 +26,13 @@ export default function App() {
       }
     }
   }, []);
+  document.addEventListener('mousemove', event => {
+    let x = event.clientX / window.innerWidth;
+    let y = event.clientY / window.innerHeight;
+
+    document.documentElement.style.setProperty('--mouse-x', x);
+    document.documentElement.style.setProperty('--mouse-y', y);
+  })
   return (
     <BrowserRouter>
       <nav>

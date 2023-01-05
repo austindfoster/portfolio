@@ -82,8 +82,8 @@ const wips = [
     },
     {
         id: 9,
-        content: "fire_hydrant.png",
-        contentType: "image",
+        content: "FireHydrant_Turnaround.mp4",
+        contentType: "video",
         alt: "Fire Hydrant",
         category: "art",
         skills: ["blender"],
@@ -123,6 +123,15 @@ const wips = [
         alt: "silocloseup",
         category: "art",
         skills: ["maya"],
+        description: "A simple Blender model of a mailbox made in about 15 minutes",
+    },
+    {
+        id: 14,
+        content: "N_Turnaround.mp4",
+        contentType: "video",
+        alt: "N (Pokemon)",
+        category: "art",
+        skills: ["blender"],
         description: "A simple Blender model of a mailbox made in about 15 minutes",
     },
 ];
