@@ -188,8 +188,8 @@ section {
   align-items: center;
   min-width: 110%;
   border-radius: 25px;
-  background-color: rgba(51, 24, 69, 0.086);
-  box-shadow: inset 0px 0px 7px 7px #08020f;
+  background-color: rgba(38, 20, 109, 0.5);
+  box-shadow: inset 0px 0px 7px 7px #180340;
 }
 
 @keyframes slide-down {
@@ -205,7 +205,7 @@ section {
 }
 
 .detail-block:hover {
-  background-color: rgba(104, 54, 137, 0.086);
+  background-color: rgba(38, 20, 109, 1);
   scale: 1.1;
 }
 

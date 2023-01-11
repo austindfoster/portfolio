@@ -56,6 +56,30 @@ export default function App() {
       </nav>
       <div id="top" className="spacer"></div>
       <Intro />
+      <div className="sidebar">
+        <div className="sidebar-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li>
+            <Link to="#top" smooth>
+              Home();
+            </Link>
+          </li>
+          <li>
+            <Link to="#programming" smooth>
+              Programming();
+            </Link>
+          </li>
+          <li>
+            <Link to="#art" smooth>
+              Art();
+            </Link>
+          </li>
+        </ul>
+      </div>
       <About />
       <Contact links={links} />
       <div id="programming" className="spacer"></div>
