@@ -1,5 +1,8 @@
+import { useInView } from "react-intersection-observer";
+
 const Item = (props) => {
   const { item } = props;
+  const { ref: i, inView: visible } = useInView({ threshold: .2 });
   let content;
   if (item.contentType === "image") {
     content = <img src={require(`../images/${item.content}`)} alt={item.alt} />;
@@ -10,35 +13,24 @@ const Item = (props) => {
       </video>
     );
   }
-  //     else if (item.contentType === "iframe") {
-  //     content = (
-  //       <iframe
-  //         width="560"
-  //         height="315"
-  //         src="http://www.youtube.com/embed/MiLPCkLrjUs?controls=0&autoplay=1&loop=1&playlist=MiLPCkLrjUs"
-  //         title={item.alt}
-  //         frameBorder="0"
-  //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  //         allowFullScreen
-  //       ></iframe>
-  //     );
-  //   } 
   else {
     content = <p>Error content unavailable</p>;
   }
 
   return (
-    <div id={`i${item.id}`} className="item">
+    <div ref={i} id={`i${item.id}`} className={`item ${visible ? "show" : ''}`}>
+      <div className="content">{content}</div>
       <div className="item-description">
         <p>{item.description}</p>
-        <div className="row">
+        <div className="toolRow">
           <h3>Tools used: </h3>
-          {item.skills.map((skill) => (
-            <img className="skill" src={require(`../images/${skill}.svg`)} alt={`${item} ${skill}`}/>
-          ))}
+          <div className="toolRow">
+            {item.skills.map((skill) => (
+              <img className="skill" src={require(`../images/${skill}.svg`)} alt={`${item} ${skill}`} />
+            ))}
+          </div>
         </div>
       </div>
-      <div className="content">{content}</div>
     </div>
   );
 };

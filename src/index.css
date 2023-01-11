@@ -1,7 +1,10 @@
 body {
   margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
   background-color: #06010b;
-  /* background: transparent radial-gradient(at calc(var(--mouse-x,0)*100%) calc(var(--mouse-y,0)*100%), #1a0849 5%, #0e011b 20%) no-repeat 0 0; */
+  /* background: transparent radial-gradient(circle at calc(var(--mouse-x,0)*100%) calc(var(--mouse-y,0)*100%), #3c074e, #06010b) no-repeat 0 0; */
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

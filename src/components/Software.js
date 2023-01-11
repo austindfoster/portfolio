@@ -1,20 +1,20 @@
 const Software = (props) => {
-    const { software, delay, visible } = props;
-    return (
-      <div className={`software ${visible ? "show" : ''}`} style={{"--animation-order": `${delay}`}}>
-        <div className="detail-block">
-          <div className="image">
-            <img src={require(`../images/${software.logo}`)} alt={software.name}/>
-          </div>
-          <div className="detail">
-            <h3 className="name">{software.name}</h3>
-            <p className="experience">{software.experience}</p>
-          </div>
+  const { software, delay, visible } = props;
+  return (
+    <div className={`software ${visible ? "show" : ''}`} style={{ "--animation-order": `${delay}` }}>
+      <div className="detail-block">
+        <div className="image">
+          <img src={require(`../images/${software.logo}`)} alt={software.name} />
         </div>
-        <div className="description">
-            <p>{software.description}</p>
+        <div className="detail">
+          <h3 className="name">{software.name}</h3>
+          <p className="experience">{software.experience}</p>
         </div>
-      </div>);
-  };
-  
-  export default Software;
+      </div>
+      <div className="description">
+        <p>{software.description}</p>
+      </div>
+    </div>);
+};
+
+export default Software;

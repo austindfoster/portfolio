@@ -18,14 +18,14 @@ import WIPMasonry from "./pages/WIPMasonry";
 import Contact from "./pages/Contact";
 
 export default function App() {
-  useEffect(() => {
-    const cN = document.getElementsByClassName("item");
-    for (let i = 0; i < cN.length; i++) {
-      if (parseInt(cN[i].id.substring(1)) % 2 === 0) {
-        cN[i].classList.replace("item", "item-left");
-      }
-    }
-  }, []);
+  // useEffect(() => {
+  //   const cN = document.getElementsByClassName("item");
+  //   for (let i = 0; i < cN.length; i++) {
+  //     if (parseInt(cN[i].id.substring(1)) % 2 === 0) {
+  //       cN[i].classList.replace("item", "item-left");
+  //     }
+  //   }
+  // }, []);
   document.addEventListener('mousemove', event => {
     let x = event.clientX / window.innerWidth;
     let y = event.clientY / window.innerHeight;

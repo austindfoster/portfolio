@@ -6,7 +6,7 @@ const items = [
         alt: "Reversi AI Bot",
         category: "cs",
         skills: ["java","bash","vscode"],
-        description: "An alphabeta pruning algorithm to evaluate the optimal move to make in Reversi by calculating multiple moves ahead.",
+        description: "An alphabeta pruning algorithm to evaluate the optimal move to make in Reversi by calculating multiple moves ahead. The Artificial Inteligence uses weights of priority locations on the board using bitmaps.",
     },
     {
         id: 1,
@@ -33,7 +33,7 @@ const items = [
         alt: "OpenGL",
         category: "cs",
         skills: ["python","vscode"],
-        description: "A lab done for C S 355 that demonstrates the use of transformation matrices and projection to emulate camera movement and animations.",
+        description: "Rendering use transformation matrices, clipping, and projection to emulate camera movement and animations using Pygame.",
     },
     {
         id: 4,
@@ -78,7 +78,7 @@ const items = [
         alt: "Piano Model",
         category: "art",
         skills: ["blender"],
-        description: "A model I had been working on over the summer to practice procedural modeling techniques.",
+        description: "A piano model I had modeled over the summer to practice procedural modeling techniques and unique shaders. The piano keys were generated using an array that follows a curve.",
     },
     {
         id: 9,
@@ -87,7 +87,7 @@ const items = [
         alt: "Laptop",
         category: "art",
         skills: ["blender"],
-        description: "A recreation of my current laptop in Blender. All textures and modeling was done in Blender.",
+        description: "A recreation of my current laptop in Blender. All textures and modeling was done in Blender. This is one of many projects I have started to recreate my belongings through 3D Modeling. This model took a bit of array knowledge and spacing things just right to get the keyboard to align correctly.",
     },
     {
         id: 10,
@@ -96,7 +96,7 @@ const items = [
         alt: "GameCube",
         category: "art",
         skills: ["blender"],
-        description: "A model of a Gamecube I made in Blender. I am a big fan of the GameCube. It had a bunch of great games.",
+        description: "A model of a Gamecube I made in Blender. I am a big fan of the GameCube. It had a bunch of great games. I learned some great edge flow techniques and topology problems when working on this model. I can better keep poly count in check now because of this project.",
     },
     {
         id: 11,
@@ -105,7 +105,7 @@ const items = [
         alt: "Controller",
         category: "art",
         skills: ["blender"],
-        description: "A model of a Gamecube controller made in Blender. My personal favorite controller.",
+        description: "A model of a Gamecube controller made in Blender. My personal favorite controller. This project took a bit of thought to get the form looking good as its shape is very unorthodox with half rounded buttons and the shaping of the handholds into hard edges took careful consideration.",
     },
     {
         id: 12,
@@ -132,7 +132,7 @@ const items = [
         alt: "Luffy",
         category: "art",
         skills: ["blender"],
-        description: "A model of Luffy from One Piece.",
+        description: "A model of Luffy from One Piece. This was just a fun project to do after learning a lot of useful sculpting techniques over the summer. In the process I learned some really cool ways to create stylized hair as well.",
     },
     {
         id: 15,
@@ -141,7 +141,7 @@ const items = [
         alt: "Train Model",
         category: "art",
         skills: ["blender"],
-        description: "A model I am working on in Blender to practice Hard Surface modeling.",
+        description: "A train model I am working on in Blender to practice Hard Surface modeling. It is still a work in progress. I plan to use it to create a procedural railroad track and have the train follow a drawable track using curves.",
     },
     {
         id: 16,
@@ -150,7 +150,7 @@ const items = [
         alt: "Pen Shader Turnaround",
         category: "art",
         skills: ["houdini","substancepainter","maya"],
-        description: "Pen shader practice.",
+        description: "A pen model and shader made to imitate a real pen I own. The goal was to render the pen onto an image to appear real. Nuke was used a little to blend the lighting and contrast a bit better in the final image.",
     },
     {
         id: 17,

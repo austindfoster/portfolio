@@ -57,11 +57,16 @@ section {
   justify-content: space-between;
 }
 
+.content {
+  display: flex;
+}
+
 .content img,
 .content video {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
+  box-shadow: 12px 10px 20px #316afc;
 }
 
 .spacer {
@@ -69,12 +74,10 @@ section {
 }
 
 .topic {
-  font-size: 40px;
-  background-image: linear-gradient(45deg, rgba(174, 0, 255, 0.803) 20%, rgba(0, 255, 255, 0.688), rgba(174, 0, 255, 0.737) 80%);
+  font-size: 60px;
+  color: #5283ff;
   width: fit-content;
   margin: auto;
-  background-clip: text;
-  color: transparent;
 }
 
 .topic h1 {
@@ -115,7 +118,7 @@ section {
   overflow: hidden;
   text-size-adjust: inherit;
   z-index: 0;
-  opacity: 0;
+  opacity: 1;
   transition: height 1s, opacity 3s, width 1s;
 }
 
@@ -124,17 +127,25 @@ section {
   flex-direction: row;
   justify-content: center;
   column-gap: 1em;
+  width: 30%;
   height: 80px;
   margin: auto;
 }
 
+.toolRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 1em;
+  height: 50px;
+}
+
 .description p,
 .item-description p {
-  max-width: 75%;
   text-align: left;
   font-size: medium;
-  margin-top: 10%;
   text-indent: 10%;
+  margin: 0;
 }
 
 .language:hover .description,
@@ -258,26 +269,23 @@ section {
     width: 50%;
     max-height: 400px;
   }
-
-  .item-description {
-    width: 0;
-  }
-
-  .item:hover .item-description,
-  .item-left:hover .item-description {
-    display: flex;
-    width: 75%;
-    opacity: 1;
-  }
-
+  
   .item {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    height: 500px;
+    height: 300px;
     justify-content: space-evenly;
-    padding: 2%;
-    margin: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: translateX(300px);
+    opacity: 0;
+    transition: ease-in-out transform 1s, ease opacity 2s
+  }
+
+  .item.show {
+    transform: translateX(0);
+    opacity: 1;
   }
 
   .item-left {
@@ -288,6 +296,13 @@ section {
     justify-content: space-evenly;
     padding: 2%;
     margin: 5%;
+  }
+
+  .item-description {
+    width: 75%;
+    margin: auto;
+    padding: 0 3em;
+    row-gap: 2em;
   }
 
   .masonry {
@@ -317,7 +332,7 @@ section {
   }
 
   .item-description {
-    width: 0;
+    width: 75%;
   }
 
   .item {
@@ -326,8 +341,6 @@ section {
     max-width: 100%;
     height: 500px;
     justify-content: space-evenly;
-    padding: 2%;
-    margin: 5%;
     /* border: medium groove blue;
     border-radius: 50px; */
   }
@@ -341,13 +354,6 @@ section {
     padding: 2%;
     /* border: medium groove blue;
     border-radius: 50px; */
-  }
-
-  .item:hover .item-description,
-  .item-left:hover .item-description {
-    display: flex;
-    width: 75%;
-    opacity: 1;
   }
 
   .masonry {
@@ -388,7 +394,7 @@ section {
   }
 
   .item-description {
-    height: 0;
+    height: 500px;
   }
 
   .item,
@@ -407,12 +413,6 @@ section {
     font-size: medium;
     margin-top: 5%;
     text-indent: 10%;
-  }
-
-  .item:hover .item-description,
-  .item-left:hover .item-description {
-    opacity: 1;
-    height: 500px;
   }
 
   .masonry {
