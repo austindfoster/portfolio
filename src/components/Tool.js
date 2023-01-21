@@ -1,7 +1,14 @@
+import { useEffect } from "react";
 const Tool = (props) => {
     const { tool, delay, visible } = props;
+
+    useEffect(() => {
+      if (visible) {
+        document.getElementById(`t${tool.id}`).classList.add("show");
+      }
+    },[visible]);
     return (
-      <div className={`tool ${visible ? "show" : ''}`} style={{"--animation-order": `${delay}`}}>
+      <div id={`t${tool.id}`} className={`tool`} style={{"--animation-order": `${delay}`}}>
         <div className="detail-block">
           <div className="image">
             <img src={require(`../images/${tool.logo}`)} alt={tool.name}/>

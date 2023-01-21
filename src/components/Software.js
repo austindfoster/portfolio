@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 const Software = (props) => {
   const { software, delay, visible } = props;
+
+  useEffect(() => {
+    if (visible) {
+      document.getElementById(`s${software.id}`).classList.add("show");
+    }
+  },[visible]);
+
   return (
-    <div className={`software ${visible ? "show" : ''}`} style={{ "--animation-order": `${delay}` }}>
+    <div id={`s${software.id}`} className={`software`} style={{ "--animation-order": `${delay}` }}>
       <div className="detail-block">
         <div className="image">
           <img src={require(`../images/${software.logo}`)} alt={software.name} />

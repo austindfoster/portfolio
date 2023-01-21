@@ -7,7 +7,7 @@ const Programming = (props) => {
   return (
     <section>
       <h1 className="topic">Programming</h1>
-      <div>
+      <div className="item-list">
         {items.map((item) => (
           <Item item={item} key={item.id} />
         ))}

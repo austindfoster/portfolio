@@ -33,6 +33,7 @@ export default function App() {
     document.documentElement.style.setProperty('--mouse-x', x);
     document.documentElement.style.setProperty('--mouse-y', y);
   })
+
   return (
     <BrowserRouter>
       <nav>
@@ -96,7 +97,7 @@ export default function App() {
       />
       <div id="jobs" className="spacer"></div>
       {/* <JobExperience jobs={jobs} /> */}
-      <WIPMasonry wips={wips} />
+      {/* <WIPMasonry wips={wips} /> */}
     </BrowserRouter>
   );
 }
