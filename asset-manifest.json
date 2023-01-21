@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.83cc2de0.css",
-    "main.js": "/portfolio/static/js/main.8d76f5a9.js",
+    "main.css": "/portfolio/static/css/main.b633e4f4.css",
+    "main.js": "/portfolio/static/js/main.d0c9e69a.js",
     "static/js/787.3e3d9bd7.chunk.js": "/portfolio/static/js/787.3e3d9bd7.chunk.js",
     "static/media/Twitter_Clone.mp4": "/portfolio/static/media/Twitter_Clone.efbe824c2cf0160b4f20.mp4",
+    "static/media/HexagonPath.mp4": "/portfolio/static/media/HexagonPath.6f9444e11ed528ed25ad.mp4",
     "static/media/Piano_Turnaround.mp4": "/portfolio/static/media/Piano_Turnaround.fc4a4b6e997189ea2fa9.mp4",
     "static/media/Solar_Wires.mp4": "/portfolio/static/media/Solar_Wires.8c8784c6c914e2dea7fa.mp4",
     "static/media/Daisy_Turnaround.mp4": "/portfolio/static/media/Daisy_Turnaround.08bd953e10bdc845d954.mp4",
@@ -75,12 +76,12 @@
     "static/media/JavaScript_logo.svg": "/portfolio/static/media/JavaScript_logo.acc4642f682cd93a4c20.svg",
     "static/media/HTML5_logo.svg": "/portfolio/static/media/HTML5_logo.aff8a9cb398fc75e4f21.svg",
     "static/media/vue_logo.svg": "/portfolio/static/media/vue_logo.f1fd23be1db9361fbcd8.svg",
-    "main.83cc2de0.css.map": "/portfolio/static/css/main.83cc2de0.css.map",
-    "main.8d76f5a9.js.map": "/portfolio/static/js/main.8d76f5a9.js.map",
+    "main.b633e4f4.css.map": "/portfolio/static/css/main.b633e4f4.css.map",
+    "main.d0c9e69a.js.map": "/portfolio/static/js/main.d0c9e69a.js.map",
     "787.3e3d9bd7.chunk.js.map": "/portfolio/static/js/787.3e3d9bd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83cc2de0.css",
-    "static/js/main.8d76f5a9.js"
+    "static/css/main.b633e4f4.css",
+    "static/js/main.d0c9e69a.js"
   ]
 }
