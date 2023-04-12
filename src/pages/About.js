@@ -7,22 +7,46 @@ const About = () => {
           <img src={profile} alt="Me"></img>
         </div>
         <div className="about-description">
-          <p>
-            Hi, my name is Austin Foster. I am a full-time student at Brigham
-            Young University studying Computer Science with an emphasis in
-            Software Engineering. I will graduate April 2023. I have a wide
-            range of skills including native android app development, web
-            development, algorithm design, graphical manipulation, artificial
-            intelligence, scripting, testing, and database management.
+          <p id="welcome">
+            Welcome to my portfolio! As an artist and a software engineer, I have separated projects under their own sections. Feel free to skip to the relavant section, but if you have time to check out my additional work it is much appreciated.
           </p>
-          <br />
-          <p>
-            I have a strong passion for coding, animation and gaming. 
-            Currently I am working on a ratings and reviews system for the MutualDates 
-            Android app as my software engineering capstone, working as a TA for BYU's web development course, 
-            and working on the animation department's annual videogame project, Solar Showdown. 
-            Feel free to look throught the projects I have worked on down below.
-          </p>
+          <div>
+            <h3>Current Projects</h3>
+            <ul>
+              <li>
+                Rating/Review System for MutualDates
+                <ul>
+                  <li>
+                    <p>Skills: Android/Kotlin/TypeScript/MongoDB</p>
+                    <p>Responsibilites: Main Backend Developer / Android Front-end</p>
+                  </li>
+                </ul>
+              </li>
+              <li>Developing Solar Showdown (BYU's Yearly VideoGame Project)</li>
+              <ul>
+                <li>
+                  <p>Skills: UnrealEngine/Git/Blueprints/C++/Maya/SubstancePainter</p>
+                  <ul>
+                    <li>
+                      <p>Spear-headed optimization</p>
+                    </li>
+                    <li>
+                      <p>Co-led Version Control Efforts</p>
+                    </li>
+                    <li>
+                      <p>Main technical Animator</p>
+                    </li>
+                    <li>
+                      <p>Modeler/Rigger/Animator</p>
+                    </li>
+                    <li>
+                      <p>Blueprint/C++ Programmer</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

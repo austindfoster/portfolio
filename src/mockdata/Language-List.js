@@ -78,6 +78,13 @@ const languages = [
     },
     {
         id: 11,
+        name: "Rust",
+        logo: "rust_crab.svg",
+        experience: "1 month",
+        description: "I built a custom ray-tracer with rust to learn the language. It is becoming one of my favorites. The compiler is awesome and the syntax is very readable.",
+    },
+    {
+        id: 12,
         name: "Dart",
         logo: "dart.svg",
         experience: "2 months",

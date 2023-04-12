@@ -4,7 +4,7 @@ const Contact = (props) => {
     return (
         <section id="contact">
             <h2 className="topic">Contact Me</h2>
-            <p>You can email me at <em><b style={{color: 'skyblue'}}>austin.foster914@gmail.com</b></em> or check out my social media.</p>
+            <p>You can email me at <em><b style={{color: 'skyblue'}}>austindfostercs@gmail.com</b></em> or check out my social media.</p>
             <div className="row">
                 {links.map((link) => (
                     <div className="skill">

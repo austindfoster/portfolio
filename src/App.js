@@ -3,6 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { useEffect } from "react";
 import Intro from "./components/Intro";
 import Art from "./pages/Art";
+import SolarShowdown from "./pages/SolarShowdown"
 import Programming from "./pages/Programming";
 import About from "./pages/About";
 import JobExperience from "./pages/JobExperience";
@@ -79,10 +80,16 @@ export default function App() {
               Art();
             </Link>
           </li>
+          <li>
+            <Link to="#contact" smooth>
+              Contact();
+            </Link>
+          </li>
         </ul>
       </div>
       <About />
       <Contact links={links} />
+      {/* <SolarShowdown/> */}
       <div id="programming" className="spacer"></div>
       <Programming
         languages={languages}
