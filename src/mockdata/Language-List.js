@@ -3,7 +3,7 @@ const languages = [
         id: 0,
         name: "C++",
         logo: "C++_Logo.svg",
-        experience: "3+ years",
+        experience: "5+ years",
         description: "Used to recreate implementations of data structures and libraries, to learn OpenGL, and for Unreal Engine logic.",
     },
     {
@@ -17,7 +17,7 @@ const languages = [
         id: 2,
         name: "Blueprints",
         logo: "unreal.svg",
-        experience: "8 months",
+        experience: "1 year",
         description: "Used for work on Solar Showdown (2023), the video game made by BYU's animation program and for personal projects.",
     },
     {
@@ -80,7 +80,7 @@ const languages = [
         id: 11,
         name: "Rust",
         logo: "rust_crab.svg",
-        experience: "1 month",
+        experience: "6 months",
         description: "I built a custom ray-tracer with rust to learn the language. It is becoming one of my favorites. The compiler is awesome and the syntax is very readable.",
     },
     {

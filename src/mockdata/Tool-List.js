@@ -20,7 +20,7 @@ const tools = [
         name: "React",
         logo: "logo.svg",
         category: "cs",
-        experience: "2 months",
+        experience: "6 months",
         description: "Used to create this portfolio and the framework we use for CS260, the class that I am a TA for.",
     },
     {
@@ -52,8 +52,17 @@ const tools = [
         name: "Git/Github",
         logo: "github.svg",
         category: "cs",
-        experience: "3+ years",
+        experience: "4+ years",
         description: "Used to store projects, keep version history, serve this website through github pages, and collaborate on projects.",
     },
+    {
+        id: 7,
+        name: "Qt",
+        logo: "Qt.svg",
+        category: "cs",
+        experience: "2 years",
+        description: "Used for UI Frameworks in C++.",
+    },
+    
 ];
 module.exports = tools;

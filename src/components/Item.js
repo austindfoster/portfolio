@@ -7,10 +7,10 @@ const Item = (props) => {
   let content;
   let description;
   if (item.contentType === "image") {
-    content = <img src={require(`../images/${item.content}`)} alt={item.alt} />;
+    content = <img className="content" src={require(`../images/${item.content}`)} alt={item.alt} />;
   } else if (item.contentType === "video") {
     content = (
-      <video src={require(`../videos/${item.content}`)} autoPlay muted loop>
+      <video className="content" src={require(`../videos/${item.content}`)} autoPlay muted loop>
         <p>{item.alt}</p>
       </video>
     );
@@ -50,11 +50,9 @@ const Item = (props) => {
 
   return (
     <div ref={i} id={`i${item.id}`} className={`item`} onClick={showDescription}>
-      <div className="content">
-        {content}
-      </div>
+      {content}
       {description}
-      {/* <div className='slide'></div> */}
+      <div className='slide'></div>
     </div>
   );
 };

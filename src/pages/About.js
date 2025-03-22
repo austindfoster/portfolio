@@ -14,37 +14,36 @@ const About = () => {
             <h3>Current Projects</h3>
             <ul>
               <li>
-                Rating/Review System for MutualDates
+                Work for ARA (Applied Research Associates)
                 <ul>
                   <li>
-                    <p>Skills: Android/Kotlin/TypeScript/MongoDB</p>
-                    <p>Responsibilites: Main Backend Developer / Android Front-end</p>
+                    <p>Skills: C++/Qt/Git</p>
+                  </li>
+                  <li>
+                    <p>Responsibilites: Junior Backend Developer / 3D Visualization</p>
                   </li>
                 </ul>
               </li>
-              <li>Developing Solar Showdown (BYU's Yearly VideoGame Project)</li>
+              <li>Personal Game Project</li>
               <ul>
                 <li>
-                  <p>Skills: UnrealEngine/Git/Blueprints/C++/Maya/SubstancePainter</p>
+                  <p>Skills: UnrealEngine/Git/Blueprints/C++/Blender/VSCode</p>
                   <ul>
                     <li>
-                      <p>Spear-headed optimization</p>
+                      <p>3D Modeling/Rigging/Animating</p>
                     </li>
                     <li>
-                      <p>Co-led Version Control Efforts</p>
+                      <p>Visual FX</p>
                     </li>
                     <li>
-                      <p>Main technical Animator</p>
-                    </li>
-                    <li>
-                      <p>Modeler/Rigger/Animator</p>
-                    </li>
-                    <li>
-                      <p>Blueprint/C++ Programmer</p>
+                      <p>Blueprint/C++ Programming</p>
                     </li>
                   </ul>
                 </li>
               </ul>
+              <li>
+                3D Printing/Painting
+              </li>
             </ul>
           </div>
         </div>

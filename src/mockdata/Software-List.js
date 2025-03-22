@@ -12,7 +12,7 @@ const software = [
         name: "Blender",
         logo: "blender.svg",
         category: "3D",
-        experience: "5+ years",
+        experience: "8+ years",
         description: "Used for Modeling, Rigging, UV Editing, Texturing, Lighting, Rendering, Procedural Geometry, and Sculpting",
     },
     {
@@ -52,7 +52,7 @@ const software = [
         name: "Unreal Engine",
         logo: "unreal.svg",
         category: "3D",
-        experience: "1 year",
+        experience: "2 years",
         description: "Used for game development projects and for developing Solar Showdown (2023) with BYU's animation department.",
     },
     {
@@ -78,6 +78,14 @@ const software = [
         category: "cs",
         experience: "2+ years",
         description: "Used as my main IDE for two Android apps alongside Intellij, as well as for working on the MutualDates app.",
+    },
+    {
+        id: 10,
+        name: "Visual Studio",
+        logo: "vs.svg",
+        category: "cs",
+        experience: "3+ years",
+        description: "Used as my main IDE for daily C++ work",
     },
 
 ];

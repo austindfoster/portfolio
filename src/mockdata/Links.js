@@ -17,5 +17,11 @@ const links = [
     //     link: "https://www.artstation.com/frosti",
     //     image: "artstation.svg",
     // },
+    {
+        id: 3,
+        alt: "SketchFab",
+        link: "https://sketchfab.com/MeltedPopsicles",
+        image: "sketchfab.svg",
+    },
 ];
 module.exports = links;
