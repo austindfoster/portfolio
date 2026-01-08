@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5cd983d1.css",
-    "main.js": "/portfolio/static/js/main.acdfdad3.js",
+    "main.js": "/portfolio/static/js/main.460e9690.js",
     "static/js/453.547a43ee.chunk.js": "/portfolio/static/js/453.547a43ee.chunk.js",
     "static/media/TurretAnim.mp4": "/portfolio/static/media/TurretAnim.e2cc4537ef5b4fd5ddf1.mp4",
     "static/media/Solar_Wires.mp4": "/portfolio/static/media/Solar_Wires.ef970f5c35ea9e47e833.mp4",
     "static/media/Twitter_Clone.mp4": "/portfolio/static/media/Twitter_Clone.efbe824c2cf0160b4f20.mp4",
     "static/media/HexagonPath.mp4": "/portfolio/static/media/HexagonPath.6f9444e11ed528ed25ad.mp4",
     "static/media/Piano_Turnaround.mp4": "/portfolio/static/media/Piano_Turnaround.fc4a4b6e997189ea2fa9.mp4",
+    "static/media/OpenGLRenderer.mp4": "/portfolio/static/media/OpenGLRenderer.5cc56d717ac253f734d9.mp4",
     "static/media/Daisy_Turnaround.mp4": "/portfolio/static/media/Daisy_Turnaround.08bd953e10bdc845d954.mp4",
     "static/media/Kiwi_Turnaround.mp4": "/portfolio/static/media/Kiwi_Turnaround.fb816028b577adacbb34.mp4",
     "static/media/GameCube_Turnaround.mp4": "/portfolio/static/media/GameCube_Turnaround.57432409ed4219977f70.mp4",
@@ -73,7 +74,7 @@
     "static/media/java.svg": "/portfolio/static/media/java.59ff7120213c009e8c75.svg",
     "static/media/Kotlin_Icon.svg": "/portfolio/static/media/Kotlin_Icon.22a89dcc49b70fcf5274.svg",
     "static/media/C_logo.svg": "/portfolio/static/media/C_logo.49d9fca6e6b984007a12.svg",
-    "static/media/C++_Logo.svg": "/portfolio/static/media/C++_Logo.10675888f5c5e3f19288.svg",
+    "static/media/C++.svg": "/portfolio/static/media/C++.10675888f5c5e3f19288.svg",
     "static/media/blender.svg": "/portfolio/static/media/blender.35840337759367f32b7b.svg",
     "static/media/dart.svg": "/portfolio/static/media/dart.9ff1e67139b2695c779d.svg",
     "static/media/substancepainter.svg": "/portfolio/static/media/substancepainter.f72a2c5db10acd5241d0.svg",
@@ -90,11 +91,11 @@
     "static/media/sketchfab.svg": "/portfolio/static/media/sketchfab.2eacfeeef94108d8f611.svg",
     "static/media/vue_logo.svg": "/portfolio/static/media/vue_logo.f1fd23be1db9361fbcd8.svg",
     "main.5cd983d1.css.map": "/portfolio/static/css/main.5cd983d1.css.map",
-    "main.acdfdad3.js.map": "/portfolio/static/js/main.acdfdad3.js.map",
+    "main.460e9690.js.map": "/portfolio/static/js/main.460e9690.js.map",
     "453.547a43ee.chunk.js.map": "/portfolio/static/js/453.547a43ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd983d1.css",
-    "static/js/main.acdfdad3.js"
+    "static/js/main.460e9690.js"
   ]
 }
